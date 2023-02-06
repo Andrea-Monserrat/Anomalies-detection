@@ -1,5 +1,5 @@
  Init repo
-_👀 This is a possible solution that  **AI-Exercise** x/y axis [🔗demo](https://github.com/natasa-plulikova/AI-Exercise)
+_👀 This is a possible solution that  **AI-Exercise**  [🔗demo](https://github.com/natasa-plulikova/AI-Exercise)
 
 
 ## Anomaly detection
@@ -42,7 +42,8 @@ H2O is a Java-based software for data modeling and general computing. The H2O so
 
  🌟The advantage that H2O offered me over other packages was the use of very large data.  🌟
 - this is the[🔗official documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-py/docs/intro.html#:~:text=H2O%20from%20Python%20is%20a%20tool%20for%20rapidly,Java-based%20software%20for%20data%20modeling%20and%20general%20computing.)
--[Isolation Forest documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/if.html?highlight=isolation%20forest)
+
+- [Isolation Forest documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/if.html?highlight=isolation%20forest)
 
 
 
@@ -51,19 +52,21 @@ H2O is a Java-based software for data modeling and general computing. The H2O so
 Isolation forest with Scikit Learn to compare results of both algorithms.
 [🔗official documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html)
 
-> ▶︎ Notes
+▶︎ Notes
 
 
- ▶︎ There are other things that I would like to try to improve the model, one of them is SHAP statistics. The hypothesis is that it could give me the importance feature for the exercise.[🔗idea] (https://medium.com/dataman-in-ai/explain-your-model-with-the-shap-values-bc36aac4de3d),(https://stats.stackexchange.com/questions/386558/feature-importance-in-isolation-forest)
+> ▶︎ There are other things that I would like to try to improve the model, one of them is SHAP statistics. The hypothesis is that it could give me the importance feature for the exercise.[🔗idea] (https://medium.com/dataman-in-ai/explain-your-model-with-the-shap-values-bc36aac4de3d),(https://stats.stackexchange.com/questions/386558/feature-importance-in-isolation-forest)
 
 
 
 
 ## References for this project
 
--[What is anomaly detection?](https://developer.ibm.com/learningpaths/get-started-anomaly-detection-api/what-is-anomaly-detection/) 
--[Isolation Forest](https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf)
--[Quantile Encoder: Tackling High Cardinality Categorical Features in Regression Problems](https://arxiv.org/pdf/2105.13783.pdf)
+- [What is anomaly detection?](https://developer.ibm.com/learningpaths/get-started-anomaly-detection-api/what-is-anomaly-detection/) 
+
+- [Isolation Forest](https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf)
+
+- [Quantile Encoder: Tackling High Cardinality Categorical Features in Regression Problems](https://arxiv.org/pdf/2105.13783.pdf)
 
 
 
