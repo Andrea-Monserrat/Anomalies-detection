@@ -18,33 +18,33 @@ subgraph cluster_0 {
 
 /* Level 0 */
 {
-"SG_0_Node_0" [shape=box, fontsize=14, label="Country_Num < 890.5"]
+"SG_0_Node_0" [shape=box, fontsize=14, label="Balance_USD < 46509.035"]
 }
 
 /* Level 1 */
 {
-"SG_0_Node_1" [shape=box, fontsize=14, label="Country_Num < 859.5"]
-"SG_0_Node_2" [shape=box, fontsize=14, label="Division"]
+"SG_0_Node_1" [shape=box, fontsize=14, label="Balance_USD < 23148.938"]
+"SG_0_Node_2" [shape=box, fontsize=14, label="Balance_USD < 48119.812"]
 }
 
 /* Level 2 */
 {
-"SG_0_Node_3" [shape=box, fontsize=14, label="Country_Num < 852.5"]
+"SG_0_Node_3" [shape=box, fontsize=14, label="Code"]
 "SG_0_Node_4" [shape=box, fontsize=14, label="Division"]
-"SG_0_Node_5" [shape=box, fontsize=14, label="Account_Year < 2018.5"]
+"SG_0_Node_5" [shape=box, fontsize=14, label="Division"]
 "SG_0_Node_6" [shape=box, fontsize=14, label="Division"]
 }
 
 /* Level 3 */
 {
-"SG_0_Node_15" [fontsize=14, label="0.99959415"]
-"SG_0_Node_16" [fontsize=14, label="0.9670058"]
-"SG_0_Node_17" [fontsize=14, label="0.5975511"]
-"SG_0_Node_18" [fontsize=14, label="0.97524685"]
-"SG_0_Node_19" [fontsize=14, label="0.99805826"]
-"SG_0_Node_20" [fontsize=14, label="0.16530778"]
-"SG_0_Node_21" [fontsize=14, label="0.6757446"]
-"SG_0_Node_22" [fontsize=14, label="0.95082176"]
+"SG_0_Node_15" [fontsize=14, label="0.42032966"]
+"SG_0_Node_16" [fontsize=14, label="0.8054054"]
+"SG_0_Node_17" [fontsize=14, label="0.989645"]
+"SG_0_Node_18" [fontsize=14, label="0.99955434"]
+"SG_0_Node_19" [fontsize=14, label="0.34398296"]
+"SG_0_Node_20" [fontsize=14, label="0.81495327"]
+"SG_0_Node_21" [fontsize=14, label="0.11821366"]
+"SG_0_Node_22" [fontsize=14, label="0.49302325"]
 }
 
 /* Edges */
@@ -53,44 +53,40 @@ subgraph cluster_0 {
 "]
 "SG_0_Node_0" -> "SG_0_Node_2" [fontsize=14, label=">=
 "]
-"SG_0_Node_2" -> "SG_0_Node_5" [fontsize=14, label="12 levels
+"SG_0_Node_2" -> "SG_0_Node_5" [fontsize=14, label="<
 "]
-"SG_0_Node_2" -> "SG_0_Node_6" [fontsize=14, label="[NA]
-18 levels
+"SG_0_Node_2" -> "SG_0_Node_6" [fontsize=14, label=">=
 "]
-"SG_0_Node_6" -> "SG_0_Node_21" [fontsize=14, label="B4
-B6
-C6
-E5
-K5
-N1
-T6
+"SG_0_Node_6" -> "SG_0_Node_21" [fontsize=14, label="[NA]
+17 levels
 "]
-"SG_0_Node_6" -> "SG_0_Node_22" [fontsize=14, label="[NA]
-11 levels
+"SG_0_Node_6" -> "SG_0_Node_22" [fontsize=14, label="13 levels
 "]
-"SG_0_Node_5" -> "SG_0_Node_19" [fontsize=14, label="<
-"]
-"SG_0_Node_5" -> "SG_0_Node_20" [fontsize=14, label="[NA]
->=
-"]
-"SG_0_Node_1" -> "SG_0_Node_3" [fontsize=14, label="[NA]
-<
-"]
-"SG_0_Node_1" -> "SG_0_Node_4" [fontsize=14, label=">=
-"]
-"SG_0_Node_4" -> "SG_0_Node_17" [fontsize=14, label="S5
+"SG_0_Node_5" -> "SG_0_Node_19" [fontsize=14, label="E0
+K7
+S5
 U9
 Y8
 Z7
 "]
+"SG_0_Node_5" -> "SG_0_Node_20" [fontsize=14, label="[NA]
+24 levels
+"]
+"SG_0_Node_1" -> "SG_0_Node_3" [fontsize=14, label="<
+"]
+"SG_0_Node_1" -> "SG_0_Node_4" [fontsize=14, label="[NA]
+>=
+"]
+"SG_0_Node_4" -> "SG_0_Node_17" [fontsize=14, label="K7
+S5
+"]
 "SG_0_Node_4" -> "SG_0_Node_18" [fontsize=14, label="[NA]
-26 levels
+28 levels
 "]
-"SG_0_Node_3" -> "SG_0_Node_15" [fontsize=14, label="[NA]
-<
+"SG_0_Node_3" -> "SG_0_Node_15" [fontsize=14, label="120 levels
 "]
-"SG_0_Node_3" -> "SG_0_Node_16" [fontsize=14, label=">=
+"SG_0_Node_3" -> "SG_0_Node_16" [fontsize=14, label="[NA]
+129 levels
 "]
 
 fontsize=40
