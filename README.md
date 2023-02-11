@@ -49,12 +49,13 @@ H2O is a Java-based software for data modeling and general computing. The H2O so
 
 - [Isolation Forest documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/if.html?highlight=isolation%20forest)
 
+## Update
+Isolation forest with Scikit Learn is now include in the repository.
+[🔗official documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html)
+
 
 
 ## Future Proposal
-
-Isolation forest with Scikit Learn to compare results of both algorithms.
-[🔗official documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html)
 
 ▶︎ Notes
 
